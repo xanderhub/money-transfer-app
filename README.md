@@ -14,3 +14,45 @@ The service allows concurrent transfers/transactions between multiple accounts. 
 * Junit - for tests.
 * Gson - used for converting Java objects into JSON representations and vice versa.
 * [Logback](https://logback.qos.ch/) - logging provider.
+
+
+<br /> 
+
+### API:
+
+Here is an example of HTTP GET requests that you can run:<br /> 
+
+`localhost:4567/accounts/2`     -     retrieves account information by its id<br />
+
+Example of response:
+```
+{
+    "status": "SUCCESS",
+    "data": {
+        "id": 2,
+        "balance": 200.00
+    }
+}
+```
+
+Example of HTTP POST request - money transfer request:<br />
+
+Request url: `localhost:4567/transfer`  <br />
+Request body:
+```
+{
+	"sourceAccountId": "1",
+	"targetAccountId": "2",
+	"amount": "25.12"
+}
+```
+
+<br />
+
+Example of response:
+```
+{
+    "status": "SUCCESS",
+    "message": "Amount of 25.12 has been transfered. Your balance is: 74.88"
+}
+```
