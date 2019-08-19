@@ -47,12 +47,17 @@ Request body:
 }
 ```
 
-<br />
-
 Example of response:
 ```
 {
     "status": "SUCCESS",
     "message": "Amount of 25.12 has been transfered. Your balance is: 74.88"
 }
+```
+
+Logs example:
+```
+12:55:29.153 [qtp516495823-24] INFO  controller.TransferController - processing request: localhost:4567/transfer
+12:55:29.164 [pool-1-thread-1] INFO  entities.Transaction - 1566208529163 - WITHDRAW from account 1 amount of 25.12 => balance: 74.88
+12:55:29.666 [pool-1-thread-1] INFO  entities.Transaction - 1566208529163 - DEPOSIT to account 2 amount of 25.12 => balance: 225.12
 ```
