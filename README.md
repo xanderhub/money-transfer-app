@@ -6,7 +6,6 @@ The service simulates money tranfers between accounts. It's built as RESTful web
 The service allows concurrent transfers/transactions between multiple accounts. For the sake of simplicity tranfer service <br />designed with blocking API i.e each transfer thread is being blocked until transfer is complete. 
 
 <br /> 
-<br />
 
 ### Technologies / libraries  used in this project:
 * Java 8
@@ -14,4 +13,4 @@ The service allows concurrent transfers/transactions between multiple accounts. 
 * [CDI](https://www.baeldung.com/java-ee-cdi) (Contexts and Dependency Injection) - is a standard dependency injection framework
 * Junit - for tests.
 * Gson - used for converting Java objects into JSON representations and vice versa.
-* Logback(https://logback.qos.ch/) - logging provider.
+* [Logback](https://logback.qos.ch/) - logging provider.
