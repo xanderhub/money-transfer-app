@@ -61,9 +61,11 @@ Logs example:
 12:55:29.666 [pool-1-thread-1] INFO  entities.Transaction - 1566208529163 - DEPOSIT to account 2 amount of 25.12 => balance: 225.12
 ```
 <br /> 
+
 ### Transaction process: <br /> 
 The heart of the tranfer service logic is `Transaction` class <br /> 
 Its simplified version is as following: <br /> 
+
 
 ```
 public final class Transaction implements Callable<StandardResponse> {
