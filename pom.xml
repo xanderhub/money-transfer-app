@@ -79,7 +79,7 @@
     <properties>
         <!-- logging -->
         <org.slf4j.version>1.7.21</org.slf4j.version>
-        <logback.version>1.1.7</logback.version>
+        <logback.version>1.2.0</logback.version>
         <cdi-api.version>2.0.SP1</cdi-api.version>
         <weld-se-core.version>3.0.5.Final</weld-se-core.version>
         <sparkjava.spark-core.version>2.5.4</sparkjava.spark-core.version>
