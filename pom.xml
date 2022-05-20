@@ -83,7 +83,7 @@
         <cdi-api.version>2.0.SP1</cdi-api.version>
         <weld-se-core.version>3.0.5.Final</weld-se-core.version>
         <sparkjava.spark-core.version>2.5.4</sparkjava.spark-core.version>
-        <google.code.gson.version>2.8.0</google.code.gson.version>
+        <google.code.gson.version>2.8.9</google.code.gson.version>
     </properties>
 
 </project>
